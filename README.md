@@ -5,7 +5,7 @@ For build and run app You need to create the .babelrc file for babel which conta
   "presets": ["env"]
 }
 
-then
+after
 
 1. npm install - for downloading packages
 2. npm start - for starting app
