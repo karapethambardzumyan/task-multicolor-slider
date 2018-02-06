@@ -9,6 +9,7 @@ after
 
 1. npm install - for downloading packages
 2. npm start - for starting app
+3. type http://localhost:8080/ in browser
 
 or
 
