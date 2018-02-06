@@ -1,0 +1,67 @@
+@import "reset.css";
+
+.row {
+  margin: 10px;
+  position: relative;
+  top: 100px;
+}
+
+.KSlider {
+  border-radius: 5px;
+  background: #E0E0E0;
+  width: 300px;
+  height: 10px;
+  position: relative;
+}
+
+.KSlider-range {
+  border-radius: 5px;
+  background: #0065bd3b;
+  height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.KSlider-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  top: -2px;
+  background: #0072d6;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.KSlider-tooltip {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 60px;
+  height: 34px;
+  position: absolute;
+  z-index: 1;
+  bottom: 190%;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: Arial;
+  font-size: 14px;
+  box-sizing: border-box;
+  visibility: hidden;
+}
+
+.KSlider-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
