@@ -12,4 +12,4 @@ then
 
 or
 
-you can use files in "dist" folder and just opening the index.html file
+you can use files in "dist" folder and just run the index.html file
