@@ -100,9 +100,9 @@ var KSlider = (function () {
 var slider1 = new KSlider({
   target: document.getElementById("slider-1")
 });
-var slider1 = new KSlider({
+var slider2 = new KSlider({
   target: document.getElementById("slider-2")
 });
-var slider1 = new KSlider({
+var slider3 = new KSlider({
   target: document.getElementById("slider-3")
 });
