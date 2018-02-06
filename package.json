@@ -4,7 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack"
+    "build": "webpack",
+    "server": "webpack-dev-server",
+    "start": "concurrently \"npm run build\" \"npm run server\""
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +17,8 @@
     "css-loader": "^0.28.9",
     "extract-text-webpack-plugin": "^3.0.2",
     "style-loader": "^0.20.1",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "concurrently": "^3.5.1"
   }
 }
