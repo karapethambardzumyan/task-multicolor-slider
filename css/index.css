@@ -1,9 +1,18 @@
 @import "reset.css";
 
+.wrapper {
+  width: 320px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
 .row {
   margin: 10px;
-  position: relative;
-  top: 100px;
 }
 
 .KSlider {
